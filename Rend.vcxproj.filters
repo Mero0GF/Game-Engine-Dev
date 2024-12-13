@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Rend">
+      <UniqueIdentifier>{CEC28B7C-BAF9-8C0D-63E6-72104FFC080F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Rend.h" />
+    <ClInclude Include="src\Rend\Application.h">
+      <Filter>Rend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rend\Core.h">
+      <Filter>Rend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rend\EntryPoint.h">
+      <Filter>Rend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rend\Log.h">
+      <Filter>Rend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Rend\Application.cpp">
+      <Filter>Rend</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rend\Log.cpp">
+      <Filter>Rend</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

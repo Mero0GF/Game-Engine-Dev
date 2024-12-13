@@ -7,7 +7,13 @@ extern Rend::Application* Rend::CreateApplication();
 
 int main(int argc, char** argv) 
 {
-	printf("Penis");
+	Rend::Log::Init();
+	RD_INFO("PENIS");
+	RD_CORE_WARN("Log Initialized!");
+	int a = 5;
+	RD_INFO("Hello! Var={0}",a);
+
+
 	auto app = Rend::CreateApplication();
 	app->Run();
 	delete app;
